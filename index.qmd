@@ -1,5 +1,5 @@
 ---
-title: "ed-ai: AI in Higher Education Research Hub"
+title: "AI in Higher Education Research Hub"
 subtitle: "Advancing AI interventions that enhance educational practice"
 ---
 

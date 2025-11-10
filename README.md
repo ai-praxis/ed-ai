@@ -1,4 +1,4 @@
-# ed-ai: AI in Higher Education Research Hub
+# AI in Higher Education Research Hub
 
 > A central repository for research, literature, and resources on AI interventions in higher education
 
@@ -52,46 +52,6 @@ ed-ai/
 └── _resources/         # Private working documents
 ```
 
-## Getting Started
-
-### Prerequisites
-
-This project uses Nix flakes for reproducible development environments:
-
-```bash
-# Install Nix with flakes enabled
-curl -L https://nixos.org/nix/install | sh
-
-# Enable flakes (if needed)
-mkdir -p ~/.config/nix
-echo "experimental-features = nix-command flakes" >> ~/.config/nix/nix.conf
-```
-
-### Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/ai-praxis/ed-ai.git
-cd ed-ai
-
-# Enter the development environment (using direnv)
-direnv allow
-
-# Or manually activate the Nix shell
-nix develop
-```
-
-### Building the Website
-
-This repository uses Quarto for documentation:
-
-```bash
-# Preview the website locally
-quarto preview
-
-# Build the static site
-quarto render
-```
 
 ## Contributing
 
