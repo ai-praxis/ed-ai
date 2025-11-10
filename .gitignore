@@ -5,6 +5,7 @@ result-*
 # Ignore automatically generated direnv output
 .direnv
 .direnv/
+.envrc
 
 # macOS
 .DS_Store
