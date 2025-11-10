@@ -1,0 +1,26 @@
+---
+title: "Design considerations"
+bibliography: ../../../references.bib
+---
+
+
+## LLM tutoring system design 
+
+
+### Challenges 
+
+#### Fairness/ inclusivity 
+
+- LLMs are trained on data that may not be representative of all groups, leading to potential biases in responses.
+- Social stereotypes and biases can be perpetuated by LLMs, affecting the quality of tutoring for marginalized groups.
+
+- [ ] This is an ongoing issue in AI research, and there are no easy solutions. 
+
+#### Reliability/ safety 
+
+- LLMs can generate incorrect or misleading information, which can be harmful in an educational context ("hallucinations"). 
+- Inconsistencies may arise in responses, leading to confusion for learners or misalignment with educational goals. 
+
+- [ ] Retrieval-augmented generation (RAG) can help mitigate: 
+  - hallucinations by grounding responses in reliable sources,
+  - inconsistencies by providing a consistent context for responses.

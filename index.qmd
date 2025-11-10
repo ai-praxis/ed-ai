@@ -1,0 +1,69 @@
+---
+title: "ed-ai: AI in Higher Education Research Hub"
+subtitle: "Advancing AI interventions that enhance educational practice"
+---
+
+## Welcome
+
+This is the central hub for research and development on artificial intelligence applications in higher education. Our mission is to explore, document, and develop AI interventions that **enhance rather than replace** existing educational infrastructure.
+
+## Our Approach
+
+We believe that AI in education should:
+
+- **Empower institutions** to maintain agency over their educational mission
+- **Support students and educators** through thoughtful micro-interventions
+- **Build on existing infrastructure** rather than disrupting proven practices
+- **Ground design in research** from educational theory and practice
+
+## What You'll Find Here
+
+### Research & Literature
+
+Comprehensive reviews and annotated bibliographies covering:
+
+- AI applications in higher education
+- Intelligent tutoring systems
+- Large language models in educational contexts
+- Educational technology and learning sciences
+
+### Funding Resources
+
+Strategies and opportunities for securing funding:
+
+- Grant programs focused on AI in education
+- Funding strategy frameworks
+- Proposal templates and examples
+
+### Blog & Reflections
+
+Ongoing discussions about AI in education, including:
+
+- Design considerations for educational AI
+- Academic integrity and AI
+- Emerging trends and technologies
+
+## Hub-and-Spoke Model
+
+This repository serves as the **hub** for general AI-in-education knowledge. Specific projects are developed in **spoke repositories** that build on this foundation:
+
+- **ed-ai-its**: Intelligent tutoring systems for language learning
+- **ed-ai-session-prep**: AI-assisted preparation for academic support sessions
+- More projects in development...
+
+## Get Involved
+
+We welcome collaboration from:
+
+- Researchers in education, AI, and learning sciences
+- Educators and instructional designers
+- Students interested in educational technology
+- Practitioners in academic support services
+
+## Recent Activity
+
+Check the [Logs](logs/) section for recent updates and developments in this research program.
+
+## About AI-PRAXIS
+
+This hub is part of the **AI-PRAXIS** organization, which aims to bridge theory and practice in AI applications for higher education. Our work emphasizes practical, ethical, and effective uses of AI that serve institutional missions and student success.

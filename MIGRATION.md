@@ -97,7 +97,8 @@ ai-praxis/
 
 - [x] Create the new GitHub organization `ai-praxis`.
 - [x] Create the hub repository `ed-ai` with the structure outlined above.
-- [ ] Migrate relevant literature reviews and notes from the ITS4LL project to the `research/literature/` directory in the `ed-ai` repository.
+- [x] Migrate relevant literature reviews and notes from the ITS4LL project to the `research/literature/` directory in the `ed-ai` repository.
+  - **Completed 2025-11-10**: Migrated general AI-in-education literature, research notes, IRB template, funding strategies, and blog posts. See `logs/2025-11-10.md` for details.
 - [ ] Identify potential spoke projects and create corresponding repositories under the `ai-praxis` organization. Starting with two to begin with: `ed-ai-its` and `ed-ai-session-prep`.
 - [ ] Add project-specific files and documentation to each spoke repository.
 - [ ] Invite collaborators to the appropriate repositories based on their interests and expertise.

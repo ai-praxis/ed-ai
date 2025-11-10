@@ -1,0 +1,21 @@
+---
+title: "Academic integrity: has AI changed the landscape?"
+author: "Jerid Francom"
+description: |
+  An overview of the challenges and opportunities that AI presents in the context of academic integrity.
+date: today
+categories:
+  - AI
+  - Academic Integrity
+  - Education
+  - Ethics
+---
+
+## Introduction
+
+Academic integrity is a cornerstone of higher education, ensuring that students' work is their own and that they are evaluated fairly on their own merits.
+
+- [Academic Integrity in the Age of AI, James Lang "Cheating Lessons"](https://tophat-1.wistia.com/medias/gw9x4qbe7l) is a video that provides an overview of the challenges and opportunities that AI presents in the context of academic integrity.
+  - James spoke at this years teaching and learning conference at WFU. It was a good talk, but I feel it was unrealistic. James suggests that cheating has been constant throughout history and that AI has not changed the landscape of academic integrity. The real issue, he argues, is that students are not engaged. Effectively, he suggests that instructors have the owness to create engaging assignments that students will not want to cheat on.
+- ...
+

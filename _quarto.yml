@@ -1,0 +1,64 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "ed-ai - AI in Higher Education Research Hub"
+  description: "Hub repository for research, literature, and resources on AI interventions in higher education"
+
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        menu:
+          - text: "Literature"
+            href: research/literature/
+          - text: "Notes"
+            href: research/notes/
+          - text: "Templates"
+            href: research/templates/
+      - text: "Funding"
+        menu:
+          - text: "Strategies"
+            href: funding/strategies/
+          - text: "Opportunities"
+            href: funding/opportunities/
+      - text: "Blog"
+        href: blog/
+      - text: "Logs"
+        href: logs/
+    right:
+      - icon: github
+        href: https://github.com/ai-praxis/ed-ai
+
+  sidebar:
+    - title: "Research"
+      contents:
+        - research/
+    - title: "Funding"
+      contents:
+        - funding/
+    - title: "Blog"
+      contents:
+        - blog/
+    - title: "Logs"
+      contents:
+        - logs/
+
+format:
+  html:
+    theme: united
+    css: assets/styles.css
+    toc: true
+    number-sections: true
+    mermaid:
+      theme: dark
+
+filters: [highlight]
+from: markdown+mark # added for highlight extension
+
+bibliography: references.bib
+
+execute:
+  freeze: auto

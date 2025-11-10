@@ -4,3 +4,17 @@ result-*
 
 # Ignore automatically generated direnv output
 .direnv
+.direnv/
+
+# macOS
+.DS_Store
+
+# Quarto
+_site/
+.quarto/
+/.quarto/
+_extensions/
+
+# AI coding assistants
+.aider*
+CLAUDE.local.md

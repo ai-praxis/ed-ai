@@ -1,0 +1,122 @@
+---
+title: "AI in Education: Annotated Bibliography"
+subtitle: "Key literature on artificial intelligence applications in higher education"
+date: today
+bibliography: ../../references.bib
+csl: ../../assets/csl/apa.csl
+---
+
+## Overview
+
+This annotated bibliography collects research on AI applications in education, with emphasis on large language models, prompt engineering, adaptive learning, and educational technology integration.
+
+## AI in Education
+
+- [ ] **The effect of ChatGPT on students' learning performance, learning perception, and higher-order thinking: Insights from a meta-analysis.** [@Wang2025a]
+
+The authors conduct a ==metaanalysis on the literature on Generative AI== (ChatGPT) in educational settings from experimental and quasi-experimental studies. They suggest that ChatGPT can enhance students' learning performance, primarily. This effect is modulated by: type of course, learning model, and duration. The exposure time suggested was between 4 and 8 weeks. The appeared to be no effect for grade level, role of ChatGPT, or area of ChatGPT use. Furthermore, the authors point out that AI provides more access to ==personalized learning== suggestions to students, which can enhance their learning experience.
+
+Sample size was somewhat small with 51 studies which limits the generalizability of the findings. The authors suggest that more research is needed to understand the long-term effects of ChatGPT on students' learning performance and perception.
+
+STEM education appears to benefit more in these studies, with a moderate effect for language learning and academic writing. The least benefit was for skills training and competencies development.
+
+- [ ] **Large Language Models for Education: A Survey and Outlook** [@Wang2024a]
+
+This is a survey paper which covers the use of Large Language Models (LLMs) in education. The authors provide an overview of the current state of research on LLMs in education, including their potential benefits and challenges. They also discuss the future directions for research in this area.
+
+![](../../assets/images/llm-ed-future-directions.png)
+
+Of particular interest is the section on Adaptive Learning and Risks and Potential Challenges. ==Adaptive learning== includes Knowledge Tracing and Personalized Learning. ==Knowledge tracing is the process of tracking a learner's knowledge state over time, while personalized learning involves tailoring the learning experience to the individual learner's needs and preferences.== The authors suggest that LLMs can be used to support both of these processes.
+
+Risks and challenges include: fairness and inclusivity, reliability and safety, privacy and security, and over-dependence on LLMs. LLMs can perpetuate biases (social and cultural), generate incorrect or misleading information, and raise privacy concerns. ==Retrieval-augmented generation (RAG) can help mitigate some of the reliability and safety issues by grounding responses in reliable sources.==
+
+::: {.callout}
+**{{< fa hand-point-up >}} Tip**
+
+Open-source models run on university infrastructure can help mitigate some of the privacy and security concerns, as they can be trained on local data and do not require sending data to third-party providers.
+:::
+
+- [ ] **Prompt Engineering as a New 21st Century Skill** [@Federiakin2024]
+
+Conceptual paper arguing that prompt engineering (PE) merits treatment as a distinct, teachable 21st‑century skill in formal education. The authors propose a four-part framework: (1) understanding basic prompt structure, (2) prompt literacy, (3) method of prompting, and (4) critical online reasoning. They position PE alongside—but not identical to—information literacy, academic writing, and computational thinking.
+
+::: {.callout}
+**{{< fa hand-point-up >}} Tip**
+
+Prompt engineering (PE) is the process of designing and refining prompts to elicit desired responses from AI models. It involves understanding the capabilities and limitations of AI models, as well as the context in which they are used. In this way, the authors are correct in noting that prompting is a type of information literacy.
+:::
+
+Key points include the need to articulate context and constraints clearly, align prompts with task goals, and evaluate AI outputs with critical reasoning. The paper emphasizes assessment implications for K‑12 and higher education and calls for instruments that can validly capture growth in PE.
+
+Critical evaluation: This is a conceptual synthesis; it does not provide empirical validation or comparative effectiveness evidence for the proposed framework. Connections to existing literacies are discussed in broad terms, but ==operational overlap== (e.g., rubric items that double-count writing or information literacy) remains an open design risk for assessment.
+
+- [ ] **Supporting Self-Directed Learning and Self-Assessment Using TeacherGAIA, a Generative AI Chatbot Application: Learning Approaches and Prompt Engineering** [@Ali2023]
+
+Empirical study evaluating a classroom deployment of a GenAI chatbot (TeacherGAIA) to ==support self-directed learning and self-assessment==. The paper examines how students' prompting practices relate to learning approaches and perceived feedback quality.
+
+Key findings (as reported): structured, reflective prompting aligns with more productive learning approaches; ==students attribute higher usefulness to AI feedback when they iteratively refine prompts==. The study foregrounds prompt engineering as a proximal mechanism shaping outcomes.
+
+Critical evaluation: ==Design details limit causal claims== (non-randomized, context-specific). Reported associations between prompting quality and learning measures are plausible but may be confounded by learner motivation and prior ability. External validity beyond the studied setting is unclear.
+
+Significance: Supports coupling AI tools with explicit prompt strategy scaffolds (planning, iteration, critique) and reflection. When evaluating, separate the effect of tooling from learner profile by capturing baseline proficiency and motivation.
+
+- [ ] **The Impact of Prompt Engineering and a Generative AI-Driven Tool on Autonomous Learning: A Case Study** [@Mzwri2025]
+
+Case study of a self-paced prompt engineering course integrated into a university LMS, paired with EnSmart (a GPT‑4–powered tool for item generation, grading, and feedback). The evaluation combines performance evidence, questionnaires, and surveys to assess effects on prompting skill, academic English, and learning experience.
+
+Key findings: practical prompting skills improved; accessible patterns (e.g., persona) yielded consistent gains, while advanced patterns (e.g., flipped interaction) were harder to master. Gains in academic English were largest for lower-proficiency learners. Students valued LMS integration and grading speed but noted limited question diversity and adaptability.
+
+Critical evaluation: As a single-site case study without strong controls, results are encouraging but not definitive. Instrument validity and inter-rater reliability for language proficiency gains deserve closer scrutiny. ==Tool-internal evaluation metrics may overestimate learning if not triangulated with human ratings.==
+
+Significance: Provides concrete design levers—scaffold simple prompt patterns first, integrate iterative feedback, and instrument for human oversight. When deploying LMS-integrated tools, audit feedback coverage (diversity, difficulty adaptation) and monitor for overfitting to tool affordances.
+
+- [ ] **Prompt Engineering in Higher Education: A Systematic Review to Help Inform Curricula** [@Lee2025]
+
+Systematic review surveying prompt engineering frameworks and practices in higher education. The review synthesizes evidence that prompt design aligned to instructional objectives improves the quality and relevance of GenAI outputs in teaching and learning activities.
+
+Key themes: proliferation of prompt frameworks, importance of context and constraints in tasking, and the need for explicit instruction in pragmatic AI-interaction skills (planning, verification, and revision). The authors argue for evaluation frameworks aligned with course goals rather than tool-centric metrics.
+
+Critical evaluation: Scope and synthesis are useful, though heterogeneity of study designs and outcome measures complicates generalization. Without a registered protocol, study selection may reflect availability and novelty bias. More head-to-head experimental comparisons of frameworks would strengthen curricular recommendations.
+
+Significance: Offers curriculum-level guidance. Map course outcomes to a minimal prompt skills spine (tasking, grounding, critique) and evaluate via authentic tasks and revision traces rather than static prompt scores.
+
+- [ ] **Prompt Engineering in Education: A Systematic Review of Approaches and Educational Applications** [@Qian2025]
+
+Systematic review mapping prompt engineering approaches across educational contexts and distilling design patterns and evaluation practices. The paper frames prompt engineering as both a technical skill (formulation, grounding, constraints) and a pedagogical strategy (scaffolding thinking, formative feedback).
+
+Key themes: convergence toward reusable prompt patterns, emerging assessment approaches (rubrics, performance tasks), and unresolved issues around ethics, equity, and transfer across disciplines and modalities. The review charts an evolving landscape and surfaces gaps in rigorous, domain-specific evaluation.
+
+Critical evaluation: Breadth is a strength, but reported effects often rely on short-term proxies and uncontrolled settings. Future work should target task-aligned, longitudinal measures and comparative studies that isolate prompting from content and tool effects.
+
+Significance: Useful lens for selecting prompt patterns and building assessments. Prioritize grounded prompting (sources, criteria) and capture revision telemetry to evaluate learning beyond one-shot outputs.
+
+## Educational Foundations
+
+- [ ] **The 2 Sigma Problem: The Search for Methods of Group Instruction as Effective as One-to-One Tutoring.** [@Bloom1984]
+
+Bloom observes that one-to-one tutoring is the most effective form of instruction, but it is not feasible for (large) groups. The '2 Sigma Problem' refers to the challenge of finding methods of group instruction that can achieve the same level of effectiveness as one-to-one tutoring (which tends to be two standard deviations better than traditional classroom instruction).
+
+He considers a number variables that likely contribute to student achievement. Those that appear to have the most impact are: tutorial instruction, reinforcement, corrective feedback (mastery learning), cues and explanations, student classroom participation, student time on task, and improved reading/study skills. These variables were labeled as 'teacher oriented' or 'student oriented' variables.
+
+| Teacher Oriented | Student Oriented |
+|------------------|------------------|
+| Tutorial instruction | Corrective feedback (mastery learning) |
+| Student classroom participation | Student classroom participation |
+| Reinforcement | Student time on task |
+| Cues and explanations | Improved reading/study skills |
+
+## Intelligent Tutoring Systems
+
+- [ ] **Developing an Adaptive Web-based Intelligent Tutoring System Using Mastery Learning Technique** [@Kularbphettong2015]
+
+This paper presents the development and evaluation of an adaptive web-based intelligent tutoring system (ITS) designed to teach Java programming to freshman students at Suan Sunandha Rajabhat University in Thailand. The system integrates mastery learning principles with rule-based techniques and student profiling to deliver personalized instruction, requiring students to demonstrate competency before advancing to subsequent material.
+
+The researchers implemented a four-component architecture consisting of user interface, student module, tutor module, and intelligent module. The system was evaluated with 67 students across two classes, measuring both user satisfaction and system quality through questionnaires and black box testing.
+
+**Key findings** include positive user satisfaction ratings (teachers: 4.15/5.0, students: 4.23/5.0) and system quality assessments (teachers: 4.05/5.0, students: 3.97/5.0). The authors report that the system helped students learn more efficiently and reduced study time, though they provide only descriptive statistics without statistical significance testing.
+
+**Critical evaluation** reveals several methodological limitations. Most notably, the satisfaction ratings exceeded the system quality ratings, particularly for students (4.23 vs. 3.97), suggesting a potential novelty effect where users appreciated the pedagogical concept despite experiencing technical limitations. The absence of inferential statistics (t-tests, ANOVA) prevents determination of whether observed differences are statistically significant. Given the relatively large standard deviations compared to mean differences, the reported improvements may not be statistically meaningful.
+
+**Significance** for the field: This study represents an early implementation of mastery learning principles in web-based ITS for programming education. While the technical evaluation lacks rigor, the positive user reception suggests promise for adaptive tutoring approaches in computer science education. The work contributes to understanding how traditional pedagogical theories can be integrated with emerging educational technologies, though more robust evaluation methods are needed to validate effectiveness claims.
+
+## References
