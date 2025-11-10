@@ -3,7 +3,7 @@ project:
   output-dir: _site
 
 website:
-  title: "ed-ai - AI in Higher Education Research Hub"
+  title: "AI in Higher Education Research Hub"
   description: "Hub repository for research, literature, and resources on AI interventions in higher education"
 
   navbar:
@@ -48,14 +48,15 @@ website:
 
 format:
   html:
-    theme: united
+    theme: cosmo
+    respect-user-color-scheme: true
     css: assets/styles.css
     toc: true
     number-sections: true
     mermaid:
       theme: dark
 
-filters: [highlight]
+filters: [highlight, fontawesome]
 from: markdown+mark # added for highlight extension
 
 bibliography: references.bib
