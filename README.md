@@ -1,2 +1,5 @@
-# ed-ai
-AI applied to higher education
+# ED-AI
+
+> AI applied to higher education
+
+
