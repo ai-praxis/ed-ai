@@ -1,0 +1,10 @@
+---
+title: "Research Templates"
+listing:
+  contents: "*.md"
+  type: default
+  sort: "title"
+  fields: [title, description]
+---
+
+Reusable resources for research including IRB protocol templates, evaluation frameworks, and documentation standards.

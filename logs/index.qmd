@@ -1,0 +1,10 @@
+---
+title: "Research Logs"
+listing:
+  contents: "*.md"
+  type: default
+  sort: "date desc"
+  fields: [date, title, description]
+---
+
+Daily research logs documenting project progress, decisions, and insights.

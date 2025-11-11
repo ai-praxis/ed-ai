@@ -1,0 +1,10 @@
+---
+title: "Funding Strategies"
+listing:
+  contents: "*.md"
+  type: default
+  sort: "title"
+  fields: [title, description]
+---
+
+Funding strategies and planning frameworks for AI-in-education research projects.

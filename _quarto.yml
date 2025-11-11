@@ -13,17 +13,17 @@ website:
       - text: "Research"
         menu:
           - text: "Literature"
-            href: research/literature
+            href: research/literature/
           - text: "Notes"
-            href: research/notes
+            href: research/notes/
           - text: "Templates"
-            href: research/templates
+            href: research/templates/
       - text: "Funding"
         menu:
           - text: "Strategies"
-            href: funding/strategies
+            href: funding/strategies/
           - text: "Opportunities"
-            href: funding/opportunities
+            href: funding/opportunities/
       - text: "Blog"
         href: blog/
       - text: "Logs"

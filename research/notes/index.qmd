@@ -1,0 +1,10 @@
+---
+title: "Research Notes"
+listing:
+  contents: "*.md"
+  type: default
+  sort: "title"
+  fields: [title, description]
+---
+
+Working documents exploring design considerations, academic integrity, pedagogical frameworks, and case studies for AI integration in education.

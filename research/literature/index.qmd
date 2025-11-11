@@ -1,0 +1,10 @@
+---
+title: "Literature"
+listing:
+  contents: "*.qmd"
+  type: default
+  sort: "title"
+  fields: [title, description]
+---
+
+This section contains literature reviews and annotated bibliographies covering AI applications in higher education.

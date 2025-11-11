@@ -1,0 +1,10 @@
+---
+title: "Funding Opportunities"
+listing:
+  contents: "*.md"
+  type: default
+  sort: "title"
+  fields: [title, description]
+---
+
+Grant opportunities focused on AI in education, including foundation grants and federal funding programs.
