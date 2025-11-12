@@ -12,9 +12,9 @@ What are some other potential applications of AI in higher education?
 
 Ideas:
 
+- AI-driven help services that assist students in navigating campus resources and support services.
 - AI-powered study aids that help students review and reinforce their learning material.
 - AI-driven personalized learning paths that adapt to individual student needs and learning styles.
-- AI-driven help services that assist students in navigating campus resources and support services.
 - AI-driven service that takes into account students' previous courses and can help students make interdisciplinary connections to enhance the inter-relational understanding of their learning.
 - ...
 
